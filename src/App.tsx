@@ -1,13 +1,19 @@
+import { Counter } from './components/Counter';
+import { Usuario } from './components/Usuario';
 
 function App() {
 
-  return (
-    <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    return (
+        <>
+            <h1 className="read-the-docs">
+        React + TypeScript
+            </h1>
+            <Counter />
+
+            <Usuario />
+            <hr />
+        </>
+    );
 }
 
-export default App
+export default App;
