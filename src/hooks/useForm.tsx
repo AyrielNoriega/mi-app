@@ -18,6 +18,7 @@ export function useForm<T> (initialState: T) {
 
     return {
         formulario,
-        handleChange
+        handleChange,
+        ...formulario
     };
 }
