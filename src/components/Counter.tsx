@@ -10,8 +10,8 @@ export const Counter = () => {
 
     return (
         <div className="mt-5">
-            <h3>Counter: useState</h3>
-            <p>valor: { counter }</p>
+            <h3>useState</h3>
+            <h4>valor: { counter }</h4>
             <button
                 className="btn btn-outline-primary mt-2"
                 onClick={ () => onIncrement() }
